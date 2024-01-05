@@ -1,0 +1,12 @@
+.navbar>.container-fluid {
+    background-color: rgb(131, 230, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 80px;    
+}
+.bg-body-tertiary{
+    padding: 0;
+}
+.btn{
+    background-color: aliceblue;
+}

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Mynavbar from './components/Navbar';
+import ControlledCarousel from './components/Suggest';
+import Products from './components/Products';
+import CartProvider from './components/context/context';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <CartProvider>
+      <Mynavbar/>
+      <div style={{width: "70vw", marginLeft:"auto", marginRight:"auto", marginTop:"20px"}}>
+      <ControlledCarousel/>
+      </div>
+      <Products/>
+    </CartProvider>
+    </>
   );
 }
 
