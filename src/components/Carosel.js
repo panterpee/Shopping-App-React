@@ -7,14 +7,14 @@ function ControlledCarousel() {
 
   return (
     <>
-    <h1 style={{textAlign:"center",paddingTop:"2rem",paddingBottom:"1rem"}}>SHOPPING ME</h1><br/>
-    <Carousel activeIndex={index} variant="dark" onSelect={handleSelect}>
+    <h1 style={{textAlign:"center",paddingTop:"1rem",paddingBottom:"0.5rem",fontSize:"3rem",fontFamily:"fantasy"}}>Style your Confidence</h1><br/>
+    <Carousel activeIndex={index} variant="dark" onSelect={handleSelect} controls={false}>
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://content-management-files.canva.com/323fa962-3a70-4ef7-85ae-ab2174242964/ogimage_t-shirts.jpg"
+          src="https://images.yen.com.gh/images/768ebf48606b4d65.jpg?imwidth=900"
           alt="First slide"
-          style={{display:"block", marginLeft:"auto", marginRight:"auto",maxHeight:"450px"}}
+          style={{display:"block", marginLeft:"auto", marginRight:"auto",maxHeight:"500px"}}
         />
         <Carousel.Caption>
           {/* None */}
@@ -23,9 +23,9 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block "
-          src="https://images.lifestyleasia.com/wp-content/uploads/sites/3/2022/05/13183009/lennart-uecker-49bzdf_egju-unsplash-hero-1600x900.jpeg"
+          src="https://media.vanityfair.com/photos/57d32a5da9f841aa372f5521/master/pass/jordan-barrett-october-2016-it-boy.jpg"
           alt="First slide"
-          style={{display:"block", marginLeft:"auto", marginRight:"auto",maxHeight:"450px"}}
+          style={{display:"block", marginLeft:"auto", marginRight:"auto",maxHeight:"500px"}}
         />
         <Carousel.Caption>
           {/* None */}
@@ -34,9 +34,9 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block"
-          src="https://miro.medium.com/v2/resize:fit:1188/1*Cf2rdjTvsDSYVR8S8dHy0w.jpeg"
+          src="https://i.ytimg.com/vi/JoeUvRjBGEI/maxresdefault.jpg"
           alt="First slide"
-          style={{display:"block", marginLeft:"auto", marginRight:"auto",maxHeight:"450px"}}
+          style={{display:"block", marginLeft:"auto", marginRight:"auto",maxHeight:"500px"}}
         />
         <Carousel.Caption>
           {/* None */}

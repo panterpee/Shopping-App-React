@@ -11,7 +11,7 @@ function Products() {
   const { Addproduct, searchinput} = useCart();
   return (
     <>
-      <h1 style={{ paddingTop: "3rem" ,textAlign:"center"}}>All Products</h1>
+      <h1 style={{ paddingTop: "3rem" ,textAlign:"center",fontFamily:"fantasy"}}>All Products</h1>
       <div
         className="container"
         style={{ marginBottom: "5rem", marginTop: "3rem" }}

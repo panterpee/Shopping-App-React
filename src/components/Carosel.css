@@ -1,5 +1,5 @@
 h1{
-    color: rgb(67, 67, 67);
+    color: rgb(0, 71, 110);
 }
 
 .carousel-indicators {
@@ -11,6 +11,11 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+} */
 
 
 @media (max-width: 992px) {

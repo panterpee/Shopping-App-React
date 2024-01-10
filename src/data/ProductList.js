@@ -37,7 +37,7 @@ const productlist = [
         detail : "A black pant for smart guys",
         src: "https://www.beyours.in/cdn/shop/files/eveeryday-pant--black-1.jpg?v=1688369505",
         price: 800 ,
-        typr:"pant"
+        type:"pant"
         
     },
     {
@@ -46,7 +46,7 @@ const productlist = [
         detail : "A white pant for clean guys",
         src: "https://www.snitch.co.in/cdn/shop/files/4MSR5026-05-322.jpg?v=1688718347",
         price: 650 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 7,
@@ -54,7 +54,7 @@ const productlist = [
         detail : "A blue pant for cool guys",
         src: "https://rukminim2.flixcart.com/image/850/1000/xif0q/trouser/g/j/s/34-chino-skyblue-urbano-fashion-original-imagjzqfysjqh3qd.jpeg?q=90",
         price: 1200 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 8,
@@ -62,7 +62,7 @@ const productlist = [
         detail : "A red pant for hot guys",
         src: "https://i8.amplience.net/i/indochino/15014888_0_0/red-solid-design-hemsworth-pants.jpg?$pants-pdp-desk$",
         price: 800 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 9,
@@ -70,7 +70,7 @@ const productlist = [
         detail : "Smart style wearing",
         src: "https://underarmour.scene7.com/is/image/Underarmour/3022955-002_DEFAULT?rp=standard-30pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=566&hei=708&size=536,688",
         price: 850 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 10,
@@ -78,7 +78,7 @@ const productlist = [
         detail : "Comfortable feet",
         src: "https://www.campusshoes.com/cdn/shop/products/CAMPTUCKER_22G-173_WHT-NAVY.jpg?v=1674362533",
         price: 750 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 11,
@@ -86,7 +86,7 @@ const productlist = [
         detail : "Running faster",
         src: "https://media.istockphoto.com/id/691616136/photo/red-sneakers.jpg?s=612x612&w=0&k=20&c=BBMNOxRnNNdaeEZmMooA1Xu9Exq-olwrP9n3B-iaJCU=",
         price: 700 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 12,
@@ -94,7 +94,7 @@ const productlist = [
         detail : "Feel like in water",
         src: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f81a93942800473fa6cbaf7b00b2d48b_9366/Campus_00s_H03471_01_standard.jpg",
         price: 800 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 13,
@@ -102,7 +102,7 @@ const productlist = [
         detail : "For mysterious guys",
         src: "https://bocogear.com/wp-content/uploads/2017/11/902202_RunHat_Black_Front.jpg",
         price: 1000 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 14,
@@ -110,7 +110,7 @@ const productlist = [
         detail : "Make your brain lighter",
         src: "https://bocogear.com/wp-content/uploads/2017/11/902201_RunHat_White_Front.jpg",
         price: 600 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 15,
@@ -118,15 +118,15 @@ const productlist = [
         detail : "Hot head",
         src: "https://i.nextmedia.com.au/News/red%20hat%20fedora.jpg",
         price: 750 ,
-        typr:"pant"
+        type:"pant"
     },
     {
         id : 16,
         title : "Blue hat",
-        detail : "Can freeze your brain",
+        detail : "Can cool your brain",
         src: "https://i.etsystatic.com/14719537/r/il/0b35a5/2737219948/il_1080xN.2737219948_s38x.jpg",
         price: 800 ,
-        typr:"pant"
+        type:"pant"
     }
     ]
 

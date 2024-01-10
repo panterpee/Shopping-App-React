@@ -38,7 +38,7 @@ function Mynavbar() {
                 Shoe
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item onClick={() => setSearchinput("Hat")} style={{paddingBottom:"10px"}}>
+              <NavDropdown.Item onClick={() => setSearchinput("Hat")} style={{paddingBottom:"15px"}}>
                 Hat
               </NavDropdown.Item>
             </NavDropdown>
@@ -58,7 +58,7 @@ function Mynavbar() {
           {/* <p style={{fontSize:"18px",marginRight:"30px",paddingTop:"15px"}}><b>Product in cart : {count}</b></p> */}
           <NavDropdown
             title={
-              <strong style={{ fontSize: "18px", paddingTop: "15px" }}>
+              <strong style={{ fontSize: "20px", paddingTop: "15px" }}>
                 Product in cart: {count}
               </strong>
             }
@@ -70,7 +70,7 @@ function Mynavbar() {
                 <div style={{ width: "100%" }}>
                   <NavDropdown.Item
                     href="#action/3.1"
-                    style={{ width: "210px" }}
+                    style={{ width: "250px" }}
                   >
                     {product.title} x <span>{product.amount}</span>
                     <Button
