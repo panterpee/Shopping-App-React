@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Mynavbar from './components/Navbar';
-import ControlledCarousel from './components/Suggest';
+import ControlledCarousel from './components/Carosel';
 import Products from './components/Products';
 import CartProvider from './components/context/context';
 

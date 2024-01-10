@@ -10,12 +10,7 @@ import { useCart } from "./context/context";
 
 
 function Mynavbar() {
-
-  const handleSearchClick = () => {
-    setSearchinput(document.getElementById('searchInput').value);
-  };
-
-  const {count,cartproduct,DeleteCart,total,Deprice,setSearchinput} = useCart();
+  const {count,cartproduct,DeleteCart,total,Deprice,setSearchinput,handleSearchClick} = useCart();
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -77,7 +72,7 @@ function Mynavbar() {
                     href="#action/3.1"
                     style={{ width: "210px" }}
                   >
-                    {product.title}
+                    {product.title} x <span>{product.amount}</span>
                     <Button
                       variant="danger"
                       style={{
@@ -90,7 +85,7 @@ function Mynavbar() {
                       size="sm"
                       onClick={(e) => {
                         e.stopPropagation();
-                        DeleteCart(product.id);
+                        DeleteCart(product);
                         Deprice(product.price);
                       }}
                     >

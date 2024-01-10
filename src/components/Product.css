@@ -6,3 +6,15 @@ h2{
 .customCard{
     box-shadow: 2px 2px 5px 0.5px #888888;
 }
+
+.button-custom {
+    color: black;
+    background-color: orange;
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+.button-custom:hover {
+    transform: scale(1.2);
+    background-color: orange;
+}

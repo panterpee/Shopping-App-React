@@ -1,13 +1,9 @@
-import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "./Suggest.css"
+import { useCart } from "./context/context";
+import "./Carosel.css"
 
 function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
+  const { index,handleSelect} = useCart();
 
   return (
     <>

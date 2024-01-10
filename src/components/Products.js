@@ -8,7 +8,7 @@ import productlist from "../data/ProductList";
 import { useCart } from "./context/context";
 
 function Products() {
-  const { Addproduct, Totalprice, searchinput } = useCart();
+  const { Addproduct, searchinput} = useCart();
   return (
     <>
       <h1 style={{ paddingTop: "3rem" ,textAlign:"center"}}>All Products</h1>
@@ -30,16 +30,11 @@ function Products() {
                       <Card.Title>{product.title}</Card.Title>
                       <Card.Text>{product.detail}</Card.Text>
                       <Button
+                        className="button-custom"
                         variant="secondary"
                         size="sm"
-                        style={{
-                          color: "black",
-                          backgroundColor: "orange",
-                          border: "none",
-                        }}
                         onClick={() => {
                           Addproduct(product);
-                          Totalprice(product.price);
                         }}
                       >
                         Add to cart
@@ -66,13 +61,9 @@ function Products() {
                         <Card.Title>{filteredProduct.title}</Card.Title>
                         <Card.Text>{filteredProduct.detail}</Card.Text>
                         <Button
+                          className="button-custom"
                           variant="secondary"
                           size="sm"
-                          style={{
-                            color: "black",
-                            backgroundColor: "orange",
-                            border: "none",
-                          }}
                           onClick={() => {
                             Addproduct(filteredProduct);
                           }}
