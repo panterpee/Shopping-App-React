@@ -11,7 +11,7 @@ function Products() {
   const { Addproduct, Totalprice, searchinput } = useCart();
   return (
     <>
-      <h2 style={{ paddingTop: "3rem" }}>All Product</h2>
+      <h1 style={{ paddingTop: "3rem" ,textAlign:"center"}}>All Products</h1>
       <div
         className="container"
         style={{ marginBottom: "5rem", marginTop: "3rem" }}
@@ -20,7 +20,7 @@ function Products() {
           {searchinput === ""
             ? productlist.map((product) => (
                 <Col key={product.id}>
-                  <Card>
+                  <Card className="customCard">
                     <Card.Img
                       variant="top"
                       src={product.src}
@@ -56,7 +56,7 @@ function Products() {
                 )
                 .map((filteredProduct) => (
                   <Col key={filteredProduct.id}>
-                    <Card>
+                    <Card className="customCard">
                       <Card.Img
                         variant="top"
                         src={filteredProduct.src}
@@ -75,7 +75,6 @@ function Products() {
                           }}
                           onClick={() => {
                             Addproduct(filteredProduct);
-                            Totalprice(filteredProduct.price);
                           }}
                         >
                           Add to cart

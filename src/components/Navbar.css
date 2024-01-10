@@ -10,3 +10,35 @@
 .btn{
     background-color: aliceblue;
 }
+
+.dropdown-menu.show {
+    padding-bottom: 0px;
+}
+
+.navbar-collapse {
+    background-color: transparent;
+    z-index: 99;
+}
+
+.flex {
+    display: flex ;
+    padding: 10px 0px;
+}
+
+
+    @media (max-width: 992px) {
+        .navbar-collapse {
+          background-color: white;
+          margin-top: 20px;
+          padding-bottom: 20px;
+        }
+        #searchInput{
+            width: 300px;
+            float: right;
+            display: block;
+        }
+        .d-flex{
+            display: block;
+            float: right;
+        }
+      }

@@ -69,7 +69,7 @@ const productlist = [
         title : "Black shoes",
         detail : "Smart style wearing",
         src: "https://underarmour.scene7.com/is/image/Underarmour/3022955-002_DEFAULT?rp=standard-30pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=566&hei=708&size=536,688",
-        price: 800 ,
+        price: 850 ,
         typr:"pant"
     },
     {
@@ -77,7 +77,7 @@ const productlist = [
         title : "White shoes",
         detail : "Comfortable feet",
         src: "https://www.campusshoes.com/cdn/shop/products/CAMPTUCKER_22G-173_WHT-NAVY.jpg?v=1674362533",
-        price: 800 ,
+        price: 750 ,
         typr:"pant"
     },
     {
@@ -85,13 +85,13 @@ const productlist = [
         title : "Red shoes",
         detail : "Running faster",
         src: "https://media.istockphoto.com/id/691616136/photo/red-sneakers.jpg?s=612x612&w=0&k=20&c=BBMNOxRnNNdaeEZmMooA1Xu9Exq-olwrP9n3B-iaJCU=",
-        price: 800 ,
+        price: 700 ,
         typr:"pant"
     },
     {
         id : 12,
         title : "Blue shoes",
-        detail : "Feel like feet in water",
+        detail : "Feel like in water",
         src: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f81a93942800473fa6cbaf7b00b2d48b_9366/Campus_00s_H03471_01_standard.jpg",
         price: 800 ,
         typr:"pant"
@@ -101,7 +101,7 @@ const productlist = [
         title : "Black hat",
         detail : "For mysterious guys",
         src: "https://bocogear.com/wp-content/uploads/2017/11/902202_RunHat_Black_Front.jpg",
-        price: 800 ,
+        price: 1000 ,
         typr:"pant"
     },
     {
@@ -109,7 +109,7 @@ const productlist = [
         title : "White hat",
         detail : "Make your brain lighter",
         src: "https://bocogear.com/wp-content/uploads/2017/11/902201_RunHat_White_Front.jpg",
-        price: 800 ,
+        price: 600 ,
         typr:"pant"
     },
     {
@@ -117,13 +117,13 @@ const productlist = [
         title : "Red hat",
         detail : "Hot head",
         src: "https://i.nextmedia.com.au/News/red%20hat%20fedora.jpg",
-        price: 800 ,
+        price: 750 ,
         typr:"pant"
     },
     {
         id : 16,
         title : "Blue hat",
-        detail : "Can breeze your brain",
+        detail : "Can freeze your brain",
         src: "https://i.etsystatic.com/14719537/r/il/0b35a5/2737219948/il_1080xN.2737219948_s38x.jpg",
         price: 800 ,
         typr:"pant"

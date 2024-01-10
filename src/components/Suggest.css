@@ -1,3 +1,20 @@
+h1{
+    color: rgb(67, 67, 67);
+}
+
 .carousel-indicators {
     margin-bottom: -3rem !important;
+}
+
+.carousel {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 992px) {
+    img {
+        width: 100%;
+    }
 }

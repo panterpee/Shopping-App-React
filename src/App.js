@@ -8,12 +8,17 @@ import CartProvider from './components/context/context';
 function App() {
   return (
     <>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
     <CartProvider>
       <Mynavbar/>
-      <div style={{width: "70vw", marginLeft:"auto", marginRight:"auto", marginTop:"20px"}}>
+      <div className='carousel-container'>
       <ControlledCarousel/>
       </div>
+      <div className='product-container'>
       <Products/>
+      </div>
     </CartProvider>
     </>
   );

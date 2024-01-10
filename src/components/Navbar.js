@@ -29,8 +29,8 @@ function Mynavbar() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="http://localhost:3000/">Home</Nav.Link>
-            <NavDropdown title="Category" id="navbarScrollingDropdown">
+            <Nav.Link href="http://localhost:3000/" style={{fontSize:"24px"}}>Home</Nav.Link>
+            <NavDropdown title="Category" id="navbarScrollingDropdown" style={{fontSize:"24px"}}>
               <NavDropdown.Item onClick={() => setSearchinput("Shirt")}>
                 Shirt
               </NavDropdown.Item>
@@ -43,11 +43,12 @@ function Mynavbar() {
                 Shoe
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item onClick={() => setSearchinput("Hat")}>
+              <NavDropdown.Item onClick={() => setSearchinput("Hat")} style={{paddingBottom:"10px"}}>
                 Hat
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <div className="flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -74,7 +75,7 @@ function Mynavbar() {
                 <div style={{ width: "100%" }}>
                   <NavDropdown.Item
                     href="#action/3.1"
-                    style={{ width: "200px" }}
+                    style={{ width: "210px" }}
                   >
                     {product.title}
                     <Button
@@ -96,7 +97,7 @@ function Mynavbar() {
                       Del
                     </Button>
                     <p style={{ float: "right", marginRight: "10px" }}>
-                      {product.price}
+                      <b>{product.price}</b>
                     </p>
                   </NavDropdown.Item>
                 </div>
@@ -104,10 +105,14 @@ function Mynavbar() {
               </div>
             ))}
             <NavDropdown.Item href="#action/3.1">
-              <b>total: {total} Bath</b>
+              <b>total:<span style={{float:"right"}}> {total} Bath</span></b>
+            </NavDropdown.Item>
+
+            <NavDropdown.Item href="#action/4"style={{backgroundColor: "rgb(131, 230, 255)",padding:"10px 0px", textAlign:"center", marginTop:"10px"}}> 
+              <b>Purchase</b>
             </NavDropdown.Item>
           </NavDropdown>
-
+          </div>
           <Form className="d-flex">
             <Form.Control
               type="input"
